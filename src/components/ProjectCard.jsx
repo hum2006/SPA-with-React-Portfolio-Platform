@@ -5,11 +5,11 @@ function  ProjectCard({project}){
 
         <div>
             <div>
-            <span>{ProjectCard.category}</span>
+            <span>{project.category}</span>
             </div>
 
-            <h3>{ProjectCard.name}</h3>
-            <p>{ProjectCard.description}</p>
+            <h3>{project.name}</h3>
+            <p>{project.description}</p>
          
         </div>
 

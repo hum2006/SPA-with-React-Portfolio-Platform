@@ -7,31 +7,31 @@ export const StarterProjects = [
   },
  
   {
-    id: 3,
+    id: 2,
     name: 'Call of Duty',
     category: 'game development',
     description: 'A fast paced shooting game with missions and online multiplayer battles.',
   },
   {
-    id: 4,
+    id: 3,
     name: 'Portfolio Website',
     category: 'web development',
     description: 'A responsive site to showcase personal projects and skills.',
   },
   {
-    id: 5,
+    id: 4,
     name: 'Jumia',
     category: 'web development',
     description: 'An online shop with product listings, cart, and checkout features.',
   },
   {
-    id: 6,
+    id: 5,
     name: 'fitness app',
     category: 'app development',
     description: 'A mobile app to log workouts, track progress, and set fitness goals.',
   },
   {
-    id: 7,
+    id: 6,
     name: 'Glovo',
     category: 'app development',
     description: 'An app for ordering meals from local restaurants with delivery tracking.',

@@ -8,7 +8,7 @@ function ProjectList({projects}){
         <div ClassName='ProjectList'>
 
               {projects.map((project) => (
-                <ProjectCard key={Project.id} project={project} />
+                <ProjectCard key={project.id} project={project} />
             ))}
 
         </div>
