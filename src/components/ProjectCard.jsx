@@ -1,4 +1,4 @@
-function  ProjectCard(){
+function  ProjectCard({project}){
     return(
 
     <article className="ProjectCard">
