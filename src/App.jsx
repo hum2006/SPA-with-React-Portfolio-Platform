@@ -4,6 +4,8 @@ import ProjectForm from './components/ProjectForm'
 import ProjectList from './components/ProjectList'
 import SearchBar from './components/SearchBar'
 import { StarterProjects } from './Data'
+import DarkThemeToggle from './components/DarkThemeToggle'
+
 
 function App() {
   const [projects, setProjects] = useState(StarterProjects)
@@ -24,6 +26,9 @@ function App() {
   return (
     <>
       <Header />
+        <div style={{ display: "flex", justifyContent: "flex-end", padding: "1rem" }}>
+        <DarkThemeToggle />
+        </div>
       <main className="page-container">
         <div>
           <p>Our projects</p>
@@ -39,4 +44,3 @@ function App() {
 }
 
 export default App;
-
