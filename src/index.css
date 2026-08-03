@@ -3,15 +3,19 @@
 
 /* Light theme defaults */
 :root {
+  --deep-purple: #6A0DAD;
+  --neon-cyan: #00F5FF;
+  --vibrant-orange: #FF7A00;
+
   --bg: #ffffff;
   --bg-alt: #f8fafc;
   --text: #475569;
   --text-h: #0f172a;
   --border: #e2e8f0;
   --code-bg: #f1f5f9;
-  --accent: #4f46e5;
-  --accent-bg: rgba(79, 70, 229, 0.08);
-  --accent-border: rgba(79, 70, 229, 0.35);
+  --accent: var(--deep-purple);
+  --accent-bg: rgba(106, 13, 173, 0.08);
+  --accent-border: rgba(106, 13, 173, 0.35);
   --social-bg: rgba(241, 245, 249, 0.7);
   --shadow: rgba(15, 23, 42, 0.06) 0 1px 2px,
             rgba(15, 23, 42, 0.08) 0 8px 24px -4px;
@@ -50,6 +54,7 @@ body {
   background: var(--bg);
   color: var(--text);
   transition: background 0.3s ease, color 0.3s ease;
+  font-family: var(--sans);
 }
 
 h1, h2, h3 {
@@ -60,17 +65,20 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 2.25rem;
+  font-size: 2.65rem;
   font-weight: 700;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.06em;
+  color: var(--vibrant-orange);
+  margin-bottom: 0.5rem;
 }
 
 h2 {
-  font-size: 1.05rem;
-  font-weight: 600;
+  font-size: 1.2rem;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: var(--accent);
+  color: var(--vibrant-orange);
+  margin-top: 0.25rem;
 }
 
 h3 {
@@ -80,6 +88,13 @@ h3 {
 
 p {
   margin: 0.5rem 0 0;
+  color: var(--text);
+}
+
+.intro-text {
+  color: #0f766e;
+  text-align: center;
+  max-width: 640px;
 }
 
 code {
